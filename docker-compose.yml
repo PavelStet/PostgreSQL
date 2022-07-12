@@ -10,6 +10,6 @@ services:
       POSTGRES_USER: pavelstet
       POSTGRES_PASSWORD: ghj567MNB
     ports:
-      - "5432:5432"
+      - 5432:5432
     volumes:
       - ./data:/var/lib/postgresql
